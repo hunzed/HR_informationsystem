@@ -14,3 +14,5 @@ BEGIN
     RAISE_APPLICATION_ERROR(-20001, 'Only employees with position type HR can have a login.');
   END IF;
 END;
+
+
